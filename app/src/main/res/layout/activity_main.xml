@@ -34,4 +34,44 @@
         android:text="START INTENT 2"
         android:onClick="onClick"/>
 
+    <Button
+        android:id="@+id/btnBindService"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="BIND TO SERVICE"
+        android:onClick="onClick"/>
+
+    <Button
+        android:id="@+id/btnInitData"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Initialize Data"
+        android:onClick="onClick"/>
+    <Button
+        android:id="@+id/btnAddToData"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Add To Data"
+        android:onClick="onClick"/>
+    <Button
+        android:id="@+id/btnGetData"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Get Data"
+        android:onClick="onClick"/>
+    <Button
+        android:id="@+id/btnUnbindService"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="UnBind From Service"
+        android:onClick="onClick"/>
+
+    <Button
+        android:id="@+id/btnScheduleService"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Schedule Service"
+        android:onClick="onClick"/>
+
+
 </LinearLayout>
